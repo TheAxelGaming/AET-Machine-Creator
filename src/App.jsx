@@ -502,7 +502,7 @@ ${itemsCode}
                       background: '#0d1117'
                     }}>
                       <img 
-                        src={item.icon_path ? `${window.location.origin}${window.location.pathname}${item.icon_path}` : 'https://via.placeholder.com/40?text=?'} 
+                        src={item.icon_path ? `./${item.icon_path}` : 'https://via.placeholder.com/40?text=?'} 
                         alt="" 
                         style={{ width: '32px', height: '32px', objectFit: 'contain' }} 
                         onError={(e) => { e.target.src = 'https://via.placeholder.com/40?text=?'; }}
@@ -567,7 +567,7 @@ ${itemsCode}
                         onClick={() => handleSelectItem(item)}
                       >
                         <img 
-                          src={item.icon_path ? `${window.location.origin}${window.location.pathname}${item.icon_path}` : 'https://via.placeholder.com/40?text=?'} 
+                          src={item.icon_path ? `./${item.icon_path}` : 'https://via.placeholder.com/40?text=?'} 
                           alt="" 
                           className="item-icon" 
                           onError={(e) => { e.target.src = 'https://via.placeholder.com/40?text=?'; }}
