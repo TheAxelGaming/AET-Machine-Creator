@@ -1,0 +1,7878 @@
+[
+  {
+    "id": "AdminTrader",
+    "name": "D.MDG: Dispensador Admin",
+    "weight": 15.0,
+    "texture": "FoodTrader",
+    "scale": 0.6,
+    "items": []
+  },
+  {
+    "id": "MoneyDispencer",
+    "name": "Dispensador de Dinero",
+    "weight": 15.0,
+    "texture": "WorldItems/MoneyDispencer",
+    "scale": 0.6,
+    "items": [
+      {
+        "id": "Base.SilverCoin",
+        "price": 1,
+        "currency": "gold"
+      },
+      {
+        "id": "Base.GoldCoin",
+        "price": 100,
+        "currency": "silver"
+      },
+      {
+        "id": "AutomaticEconomyTrader.MDG_Ingot",
+        "price": 100,
+        "currency": "gold"
+      },
+      {
+        "id": "Base.GoldCoin",
+        "price": 1,
+        "currency": "mdg"
+      }
+    ]
+  },
+  {
+    "id": "ClothingTrader",
+    "name": "Dispensador de Ropa",
+    "weight": 15.0,
+    "texture": "WorldItems/ClothingTrader",
+    "scale": 0.6,
+    "items": [
+      {
+        "id": "Base.Dress_Knees",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.DressKnees_Straps",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_Long",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_long_Straps",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_Normal",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_SatinNegligee",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_Short",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_SmallBlackStrapless",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_SmallBlackStraps",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_SmallStrapless",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_SmallStraps",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_Straps",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.WeddingDress",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BlackRobe",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_Long_Crafted_Burlap",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_Long_Crafted_Cotton",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_Long_Crafted_Denim",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_Long_Crafted_DenimBlack",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_Long_Crafted_DenimLight",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_Knees_Crafted_Burlap",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_Knees_Crafted_Cotton",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_Knees_Crafted_Denim",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_Knees_Crafted_DenimBlack",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_Knees_Crafted_DenimLight",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_SmallGarbageStrapless",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_SmallTarpStrapless",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_SmallDeerHideStrapless",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dress_SmallHideStrapless",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Knees_DeerHide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Knees_Hide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Long_Hide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Normal_Hide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Short_FaunHide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Short_Hide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Knees_Garbage",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Long_Garbage",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Normal_Garbage",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Short_Garbage",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Knees_Tarp",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Long_Tarp",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Normal_Tarp",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Short_Tarp",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BunnyEarsBlack",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BunnyEarsWhite",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_FurryEars",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Prescription",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Aviators",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Prescription_Aviators",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Normal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Cosmetic_Normal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Reading",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_SafetyGoggles",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Shooting",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Prescription_Shooting",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_SkiGoggles",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Sun",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Prescription_Sun",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_SwimmingGoggles",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Eyepatch_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Eyepatch_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_CatsEye",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_CatsEye_Sun",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Cosmetic_CatsEye",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Prescription_CatsEye_Sun",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Normal_HornRimmed",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Cosmetic_Normal_HornRimmed",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_JackieO",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Prescription_JackieO",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Macho",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Round_Normal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Round_Shades",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Cosmetic_Round_Normal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Prescription_Round_Shades",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_70s_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Cosmetic_70s_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Round_HoloSkulls",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_OldWeldingGoggles",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_HalfMoon",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Cosmetic_HalfMoon",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_MonocleLeft",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_MonocleRight",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Cosmetic_MonocleLeft",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Cosmetic_MonocleRight",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_SunCheap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_3dGlasses",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Groucho",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Venetian",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_NewWave",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Glasses_Novelty_Xray",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_FingerlessGloves",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_FingerlessLeatherGloves",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_FingerlessLeatherGloves_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_FingerlessLeatherGloves_Brown",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_LeatherGloves",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_LeatherGlovesBlack",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_LeatherGlovesBrown",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_LongWomenGloves",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_WhiteTINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_Dish",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_Surgical",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_BoxingRed",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_BoxingBlue",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Chainmail_Hand_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Chainmail_Hand_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_IceHockeyGloves",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_IceHockeyGloves_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_IceHockeyGloves_Blue",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_IceHockeyGloves_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_HuntingCamo",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_BurlapWrap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_DenimWrap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_LeatherWrap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_RagWrap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_TarpWrap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Bandana",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Bandana_Green",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BandanaTINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_AmericanEats",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_AmericanEats_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_3N",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_3N_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_AmericanTire",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_AmericanTire_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_AmeriglobeCom",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_AmeriglobeCom_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_BodyChisel",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_BodyChisel_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_BoxpopBrewery",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_BoxpopBrewery_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_FireDept",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_FireDept_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_Fossoil",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_Fossoil_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_Fossoil02",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_Fossoil02_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_JaysChicken",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_JaysChicken_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_KnoxDistillery",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_KnoxDistillery_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_KYTransit",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_KYTransit_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_LBMW",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_LBMW_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_LouisvilleBruiser",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_LouisvilleBruiser_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_LSU",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_LSU_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_MassGenfac",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_MassGenfac_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_Police",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_Police_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_ScarletOakDistillery",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_ScarletOakDistillery_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_Sheriff",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_Sheriff_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_Spiffos",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_Spiffos_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_SpiffosLogo",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_SpiffosLogo_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_SWAT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_SWAT_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_USL",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_USL_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_WestMapleCountryClub",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_WestMapleCountryClub_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_PizzaWhirled",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_PizzaWhirled_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_Gas2Go",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_Gas2Go_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCapKY",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCapKY_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCapKY_Red",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCapKY_Red_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCapBlue",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCapBlue_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCapRed",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCapRed_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCapGreen",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCapGreen_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCapArmy",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCapArmy_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCapTINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCapTINT_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Beany",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Beret",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BeretArmy",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_ChefHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Cowboy",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Cowboy_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Cowboy_Plastic",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Cowboy_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_EarMuffs",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_EarMuff_Protectors",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_FastFood",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_FastFood_IceCream",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_FastFood_Spiffo",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Fedora",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Fedora_Delmonte",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_GolfHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_GolfHatTINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Police",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Sheriff",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Police_Grey",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Raccoon",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Ranger",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_SantaHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_SantaHatGreen",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_ShowerCap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_FishermanRainHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_SummerHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_SummerFlowerHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_StrawHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_SurgicalCap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Sweatband",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_WeddingVeil",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_WinterHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_WinterHat_SheepSkin",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_WoolyHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BucketHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BucketHatFishing",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BonnieHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BonnieHat_CamoGreen",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BonnieHat_OliveDrab",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BonnieHat_DesertCamoNew",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BonnieHat_MiliusCamo",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BonnieHat_TigerStripeCamo",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_VisorBlack",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_VisorRed",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Visor_WhiteTINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_PeakedCapArmy",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_PeakedCapYacht",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BandanaTied",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BandanaTied_Green",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BandanaTiedTINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_NewspaperHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_PartyHat_Stars",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_PartyHat_TINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_TinFoilHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BoxingRed",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BoxingBlue",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_GoldStar",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Antlers",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Jay",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_JokeArrow",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_JokeKnife",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Pilgrim",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Pirate",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Stovepipe",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Stovepipe_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Stovepipe_UncleSam",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Witch",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Wizard",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HeadMirrorUP",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HeadMirrorDOWN",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BonnieHat_DesertCamo",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_HuntingCamo",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballCap_HuntingCamo_Reverse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_LeatherStripTied",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_RagBandana",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_RagBandanaMask",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_RagBandanaTied",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HideHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_TarpHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Cowboy_CowHide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Cowboy_Angus",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Cowboy_Holstein",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Cowboy_Simmental",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Army",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_ArmyWWII",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_SWAT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballHelmet",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballHelmet_KY",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballHelmet_Rangers",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BaseballHelmet_Z",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BicycleHelmet",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_CrashHelmet",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_CrashHelmetFULL",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_CrashHelmetFULL_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_CrashHelmet_Police",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_CrashHelmet_Stars",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Fireman",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_FootballHelmet",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_FootballHelmet_Blue",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_FootballHelmet_Red",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_FootballHelmet_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HardHat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HardHat_Miner",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HockeyHelmet",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HockeyHelmet_TINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_JockeyHelmet01",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_JockeyHelmet02",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_JockeyHelmet03",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_JockeyHelmet04",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_JockeyHelmet05",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_JockeyHelmet06",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_RidingHelmet",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_RiotHelmet",
+        "price": 100,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_SPHhelmet",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_ArmyDesertNew",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_ArmyDesert",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_CrashHelmetFULL_Spiked",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_CrashHelmetFULL_Black_Spiked",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HolsterAnkle",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HolsterDouble",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HolsterSimple",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HolsterSimple_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HolsterSimple_Brown",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HolsterSimple_Green",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Holster_DuctTape",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Holster_Hide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.WeddingJacket",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ghillie_Top",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Suit_Jacket",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Suit_Jacket_White",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Suit_JacketTINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Varsity",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JacketLong_Doctor",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_CoatArmy",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JacketLong_Random",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JacketLong_Black",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JacketLong_Santa",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JacketLong_SantaGreen",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_ArmyCamoDesert",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_ArmyCamoGreen",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_ArmyCamoUrban",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_ArmyOliveDrab",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_ArmyCamoDesertNew",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_ArmyCamoMilius",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_ArmyCamoTigerStripe",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Black",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Chef",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Fireman",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Padded",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_PaddedDOWN",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Padded_HuntingCamo",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Padded_HuntingCamoDOWN",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Police",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Sheriff",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Ranger",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_WhiteTINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jumper_DiamondPatternTINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jumper_PoloNeck",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jumper_RoundNeck",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jumper_TankTopDiamondTINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jumper_TankTopTINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jumper_VNeck",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HoodieDOWN_WhiteTINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HoodieUP_WhiteTINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PonchoGreen",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PonchoGreenDOWN",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PonchoYellow",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PonchoYellowDOWN",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_NavyBlue",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_LeatherWildRacoons",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_LeatherIronRodent",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_LeatherBarrelDogs",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Shellsuit_Black",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Shellsuit_Blue",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Shellsuit_Green",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Shellsuit_Pink",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Shellsuit_Teal",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Shellsuit_TINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Leather",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_LeatherBlack",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_LeatherBrown",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Leather_Punk",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_HuntingCamo",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hoodie_HuntingCamo_DOWN",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hoodie_HuntingCamo_UP",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_Hide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JacketLong_Hide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hoodie_Hide_DOWN",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hoodie_Hide_UP",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PonchoGarbageBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PonchoGarbageBagDOWN",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PonchoTarp",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PonchoTarpDOWN",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.LongCoat_Hide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JacketLong_CowHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JacketLong_AngusHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JacketLong_AngusCalfHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JacketLong_HolsteinHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JacketLong_HolsteinCalfHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JacketLong_SimmentalHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JacketLong_SimmentalCalfHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_CowHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_AngusHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_AngusCalfHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_DeerHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_HolsteinHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_HolsteinCalfHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_SimmentalHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_SimmentalCalfHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Jacket_SheepSkin",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JacketLong_SheepSkin",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Locket",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_DogTag",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_DogTag_Female",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_DogTag_Male",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_GoldRuby",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_GoldDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_Silver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_SilverSapphire",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_SilverCrucifix",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_SilverDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_Crucifix",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_YingYang",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_Pearl",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NecklaceLong_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NecklaceLong_GoldDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NecklaceLong_Silver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NecklaceLong_SilverEmerald",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NecklaceLong_SilverSapphire",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NecklaceLong_SilverDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NecklaceLong_Amber",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_Choker",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_Choker_Sapphire",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_Choker_Amber",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_Choker_Diamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NoseRing_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NoseRing_Silver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NoseStud_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NoseStud_Silver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_LoopLrg_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_LoopLrg_Silver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_LoopMed_Silver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_LoopMed_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_LoopSmall_Silver_Both",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_LoopSmall_Gold_Both",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_LoopSmall_Gold_Top",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_LoopSmall_Silver_Top",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_Stud_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_Stud_Silver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_Stone_Sapphire",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_Stone_Emerald",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_Stone_Ruby",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_Pearl",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_Dangly_Sapphire",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_Dangly_Emerald",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_Dangly_Ruby",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_Dangly_Diamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_Dangly_Pearl",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Right_MiddleFinger_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Left_MiddleFinger_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Right_RingFinger_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Left_RingFinger_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Right_MiddleFinger_Silver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Left_MiddleFinger_Silver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Right_RingFinger_Silver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Left_RingFinger_Silver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Right_MiddleFinger_SilverDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Left_MiddleFinger_SilverDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Right_RingFinger_SilverDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Left_RingFinger_SilverDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Right_MiddleFinger_GoldRuby",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Left_MiddleFinger_GoldRuby",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Right_RingFinger_GoldRuby",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Left_RingFinger_GoldRuby",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Right_MiddleFinger_GoldDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Left_MiddleFinger_GoldDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Right_RingFinger_GoldDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Left_RingFinger_GoldDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bracelet_BangleRightGold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bracelet_BangleLeftGold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bracelet_ChainRightGold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bracelet_ChainLeftGold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bracelet_BangleRightSilver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bracelet_BangleLeftSilver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bracelet_ChainRightSilver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bracelet_ChainLeftSilver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bracelet_RightFriendshipTINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bracelet_LeftFriendshipTINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BellyButton_DangleGold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BellyButton_DangleGoldRuby",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BellyButton_DangleSilver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BellyButton_DangleSilverDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BellyButton_RingGold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BellyButton_RingGoldDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BellyButton_RingGoldRuby",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BellyButton_RingSilver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BellyButton_RingSilverAmethyst",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BellyButton_RingSilverDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BellyButton_RingSilverRuby",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BellyButton_StudGold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BellyButton_StudGoldDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BellyButton_StudSilver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BellyButton_StudSilverDiamond",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Medal_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Medal_Silver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Medal_Bronze",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Right_MiddleFinger_Signet",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Left_MiddleFinger_Signet",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Right_RingFinger_Signet",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ring_Left_RingFinger_Signet",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_DeerHeadress",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_Teeth",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NecklaceLong_Teeth",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_SkullMammal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NecklaceLong_SkullMammal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_SkullMammal_Multi",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NecklaceLong_SkullMammal_Multi",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_SkullSmall",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NecklaceLong_SkullSmall",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_SkullSmall_Multi",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NecklaceLong_SkullSmall_Multi",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_BoarTusk",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_BoarTusk_Multi",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_BirdSkull",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Earring_BoarTusk",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BalaclavaFace",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BalaclavaFull",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BandanaMask",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BandanaMask_Green",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BandanaMaskTINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BuildersRespirator",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BuildersRespirator_nofilter",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_DustMask",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_GasMask",
+        "price": 100,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_GasMask_nofilter",
+        "price": 100,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HalloweenMaskDevil",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HalloweenMaskMonster",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HalloweenMaskPumpkin",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HalloweenMaskSkeleton",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HalloweenMaskVampire",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HalloweenMaskWitch",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HockeyMask",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_NBCmask",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_NBCmask_nofilter",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_ShemaghFace",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_ShemaghFull",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShemaghScarf",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShemaghScarfFace",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_ShemaghFace_Green",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_ShemaghFull_Green",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShemaghScarf_Green",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShemaghScarfFace_Green",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_Spiffo",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_SurgicalMask",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.WeldingMask",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_ImprovisedGasMask",
+        "price": 100,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_ImprovisedGasMask_nofilter",
+        "price": 100,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_ShemaghFull_Burlap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_ShemaghFace_Burlap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_ShemaghFull_Cotton",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_ShemaghFace_Cotton",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HeadSack_Burlap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HeadSack_Cotton",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HeadSack_Garbage",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HeadSack_Hide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HeadSack_Tarp",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HockeyMask_Hide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Apron_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Apron_BBQ",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Apron_IceCream",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Apron_Jay",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Apron_PileOCrepe",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Apron_PizzaWhirled",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Apron_Spiffos",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Apron_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Apron_WhiteTEXTURE",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tie_BowTieFull",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tie_BowTieWorn",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tie_Full",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tie_Full_Spiffo",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tie_Worn",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tie_Worn_Spiffo",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Scarf_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Scarf_StripeBlackWhite",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Scarf_StripeBlueWhite",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Scarf_StripeRedWhite",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bikini_TINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bikini_Pattern01",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.SwimTrunks_Blue",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.SwimTrunks_Green",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.SwimTrunks_Red",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.SwimTrunks_Yellow",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Swimsuit_TINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Belt2",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.RopeBelt",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BunnySuitBlack",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BunnySuitPink",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.SCBA",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.SCBA_notank",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Apron_Garbage",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Apron_Hide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Apron_Leather",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Apron_Tarp",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.LongJohns_Bottoms",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_CamoGreenLong",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_CamoUrbanLong",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_OliveDrabLong",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_CamoDesertNewLong",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_CamoMiliusLong",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_CamoTigerStripeLong",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_LongDenim",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_LongDenim_Punk",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_LongSport",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_LongSport_Red",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_BoxingRed",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_BoxingBlue",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_ShortDenim",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_ShortFormal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_ShortSport",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Knees",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Mini",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Long",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Normal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Short",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ghillie_Trousers",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.TrousersMesh_DenimLight",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.TrousersMesh_Leather",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_LeatherBlack",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_CamoDesert",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_CamoDesertNew",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_CamoGreen",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_CamoUrban",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_OliveDrab",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_CamoMilius",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_CamoTigerStripe",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Chef",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_DefaultTEXTURE",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_DefaultTEXTURE_HUE",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_DefaultTEXTURE_TINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Denim",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Denim_Punk",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Fireman",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_JeanBaggy",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_JeanBaggy_Punk",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Padded",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Padded_HuntingCamo",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Police",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Sheriff",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_PoliceGrey",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_PrisonGuard",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Ranger",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Santa",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_SantaGreen",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Scrubs",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Suit",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_SuitTEXTURE",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_SuitWhite",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_SuitWhite_White",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_WhiteTEXTURE",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_WhiteTINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dungarees",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Dungarees_HuntingCamo",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_ArmyService",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_NavyBlue",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Shellsuit_Black",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Shellsuit_Blue",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Shellsuit_Green",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Shellsuit_Pink",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Shellsuit_Teal",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Shellsuit_TINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Sport",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_FootballPants",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_FootballPants_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_FootballPants_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_FootballPants_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_HockeyPants",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_HockeyPants_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_HockeyPants_Red",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_HockeyPants_UniBlue",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shorts_HockeyPants_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_HuntingCamo",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Crafted_Burlap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Crafted_Cotton",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Crafted_Denim",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Crafted_DenimLight",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Crafted_DenimBlack",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Crafted_DenimRandom",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.LongJohns_Bottoms_Crafted_Burlap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.LongJohns_Bottoms_Crafted_Cotton",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Knees_Crafted_Burlap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Knees_Crafted_Cotton",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Knees_Crafted_Denim",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Knees_Crafted_DenimBlack",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Knees_Crafted_DenimLight",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Long_Crafted_Burlap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Long_Crafted_Cotton",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Long_Crafted_Denim",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Long_Crafted_DenimBlack",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Skirt_Long_Crafted_DenimLight",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_DeerHide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_FaunHide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_Hide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_LeatherCrafted",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Trousers_SheepSkin",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpads_Football",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpads_FootballOnTop",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_Football_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_Football_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpads_IceHockey",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpads_IceHockeyOnTop",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_CatcherVest",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_CatcherVest_Red",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_CatcherVest_Blue",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_CatcherVest_Green",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.IceHockeyNeckGuard",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.AthleticCup",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpads_FootballOnTop_Spiked",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_Football_Spiked_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_Football_Spiked_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Cuirass_Bone",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveBone_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveBone_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.VambraceBone_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.VambraceBone_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_Bone_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_Bone_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighBone_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighBone_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_BoneGloves",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Necklace_Choker_Bone",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_BoneMask",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Cuirass_BasicBone",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveBodyArmour_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveBodyArmour_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveBodyArmour_Right_Police",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveBodyArmour_Left_Police",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveBodyArmour_Right_Army",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveBodyArmour_Left_Army",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveBodyArmour_Right_Civ",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveBodyArmour_Left_Civ",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveBodyArmour_Right_SWAT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveBodyArmour_Left_SWAT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighBodyArmour_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighBodyArmour_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighBodyArmour_R_Police",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighBodyArmour_L_Police",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighBodyArmour_R_Army",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighBodyArmour_L_Army",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighBodyArmour_R_Civ",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighBodyArmour_L_Civ",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighBodyArmour_R_SWAT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighBodyArmour_L_SWAT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_BodyArmour_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_BodyArmour_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_BodyArmour_Right_Police",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_BodyArmour_Left_Police",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_BodyArmour_Right_Army",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_BodyArmour_Left_Army",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_BodyArmour_Right_Civ",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_BodyArmour_Left_Civ",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_BodyArmour_Right_SWAT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_BodyArmour_Left_SWAT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_BodyArmour_Right_Desert",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_BodyArmour_Left_Desert",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighBodyArmour_R_Desert",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighBodyArmour_L_Desert",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveBodyArmour_Right_Desert",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveBodyArmour_Left_Desert",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gorget_Burlap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gorget_Denim",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gorget_Rag",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_Leather_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_Leather_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_LeatherSpike_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_LeatherSpike_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gorget_Leather",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gorget_LeatherWrap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Codpiece_Leather",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuardSpike_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuardSpike_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuardSpike_R_Baseball",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuardSpike_L_Baseball",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuardSpike_R_IceHockey",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuardSpike_L_IceHockey",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuardSpike_R_Protective",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuardSpike_L_Protective",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ElbowPad_Right_Leather",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ElbowPad_Left_Leather",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Kneepad_Right_Leather",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Kneepad_Left_Leather",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Cuirass_Magazine",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveMagazine_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveMagazine_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.VambraceMagazine_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.VambraceMagazine_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighMagazine_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighMagazine_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveTire_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveTire_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighTire_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighTire_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.VambraceTire_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.VambraceTire_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_Tire_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_Tire_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Cuirass_Tire",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveWood_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveWood_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighWood_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighWood_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Cuirass_Wood",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_Wood_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_Wood_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.VambraceWood_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.VambraceWood_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HockeyMask_Wood",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_L_Blue",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_R_Blue",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_L_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_R_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_L_Rigid",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_R_Rigid",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuard_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuard_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuard_L_Baseball",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuard_R_Baseball",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuard_L_IceHockey",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuard_R_IceHockey",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuard_L_Protective",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuard_R_Protective",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuard_L_TINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuard_R_TINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_HockeyGoalie_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_HockeyGoalie_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_HockeyGoalie_L_Blue",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_HockeyGoalie_R_Blue",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_HockeyGoalie_L_Red",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_HockeyGoalie_R_Red",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_HockeyGoalie_L_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shinpad_HockeyGoalie_R_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Kneepad_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Kneepad_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Kneepad_Right_Workman",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Kneepad_Left_Workman",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Kneepad_Right_Military",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Kneepad_Left_Military",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Kneepad_Right_Sport",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Kneepad_Left_Sport",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Kneepad_Right_Tactical",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Kneepad_Left_Tactical",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Kneepad_Right_TINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Kneepad_Left_TINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ElbowPad_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ElbowPad_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ElbowPad_Right_Military",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ElbowPad_Left_Military",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ElbowPad_Right_Sport",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ElbowPad_Left_Sport",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ElbowPad_Right_Tactical",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ElbowPad_Left_Tactical",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ElbowPad_Right_TINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ElbowPad_Left_TINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ElbowPad_Right_Workman",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ElbowPad_Left_Workman",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Chainmail_SleeveFull_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Chainmail_SleeveFull_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighProtective_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighProtective_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gaiter_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gaiter_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Baseball_KY",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Baseball_Rangers",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Baseball_Z",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_CamoDesert",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_CamoGreen",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_CamoUrban",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_OliveDrab",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_CamoDesertNew",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_CamoMilius",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_CamoTigerStripe",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Denim",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Jockey01",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Jockey02",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Jockey03",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Jockey04",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Jockey05",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Jockey06",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Lumberjack",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Lumberjack_Green",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Lumberjack_TINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_OfficerWhite",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_PoliceBlue",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Sheriff",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_PoliceGrey",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_PrisonGuard",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Priest",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Ranger",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Scrubs",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_FormalTINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_FormalWhite",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_FormalWhite_ShortSleeve",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_FormalWhite_ShortSleeveTINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Workman",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_HawaiianRed",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_HawaiianTINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_ArmyGreen",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_CamoDesert",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_CamoGreen",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_CamoUrban",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_CamoDesertNew",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_OliveDrab",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_CamoMilius",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_CamoTigerStripe",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Fossoil",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Gas2Go",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_ThunderGas",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Rock",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Rock2",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_BluesCountry",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Metal",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_EMD",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Punk",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_HipHop",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Indie",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_McCoys",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_PileOCrepe",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_PizzaWhirled",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_BusinessSpiffo",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_ValleyStation",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_DefaultDECAL",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_DefaultDECAL_TINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_DefaultTEXTURE",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_DefaultTEXTURE_TINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_PoliceBlue",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Sheriff",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_PoliceGrey",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_PoloStripedTINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_PoloTINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Ranger",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Scrubs",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_IndieStoneDECAL",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_SpiffoDECAL",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Sport",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_SportDECAL",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_WhiteLongSleeve",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_WhiteLongSleeveTINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_LongSleeve_SuperColor",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_WhiteTINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_SuperColor",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_TieDye",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Profession_FiremanBlue",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Profession_FiremanRed",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Profession_FiremanRed02",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Profession_FiremanWhite",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Profession_PoliceBlue",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Profession_PoliceWhite",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Profession_RangerBrown",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Profession_RangerGreen",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Profession_VeterenGreen",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Profession_VeterenRed",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_CropTopTINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_CropTopNoArmTINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BoobTube",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BoobTubeSmall",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Bowling_Blue",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Bowling_Brown",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Bowling_Green",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Bowling_LimeGreen",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Bowling_Pink",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Bowling_White",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Football_Jersey_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Football_Jersey_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Football_Jersey_Blue",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ice_Hockey_Jersey_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ice_Hockey_Jersey_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ice_Hockey_Jersey_BlueUni",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Ice_Hockey_Jersey_Red",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_LongSleeve_HuntingCamo",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_HuntingCamo",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tshirt_Tuxedo",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Crafted_Burlap",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Crafted_Cotton",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Crafted_Denim",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Crafted_DenimBlack",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Crafted_DenimLight",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_Crafted_DenimRandom",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_NoSleeves_Crafted_Burlap",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_NoSleeves_Crafted_Cotton",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_NoSleeves_Crafted_Denim",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_NoSleeves_Crafted_DenimBlack",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shirt_NoSleeves_Crafted_DenimLight",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bandeau_Burlap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bandeau_Denim",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bandeau_FaunHide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bandeau_Garbage",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bandeau_Hide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bandeau_Rag",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bandeau_Tarp",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Socks_Ankle",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Socks_Ankle_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Socks_Ankle_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Socks_Long",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Socks_Long_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Socks_Long_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Socks_Heavy",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Socks_LegWarmers",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_ArmyBoots",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_ArmyBootsDesert",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_WorkBoots",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_HikingBoots",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_BlackBoots",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_BlueTrainers",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_Brown",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_Random",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_RedTrainers",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_RidingBoots",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_Slippers",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_TrainerTINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_Wellies",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_FlipFlop",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_Bowling",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_Fancy",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_Sandals",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_Strapped",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_CowboyBoots",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_CowboyBoots_Brown",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_CowboyBoots_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_CowboyBoots_Fancy",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_CowboyBoots_SnakeSkin",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_BurlapWrap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_CrudeLeatherFootwear",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_DenimWrap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_HideBoots",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_LeatherWrap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_RagWrap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_TarpWrap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_TireSandals",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoes_Twine",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Boilersuit",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Boilersuit_BlueRed",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Boilersuit_Flying",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Boilersuit_Prisoner",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Boilersuit_PrisonerKhaki",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Boilersuit_SWAT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Boilersuit_Yellow",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HazmatSuit",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HospitalGown",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.LongCoat_Bathrobe",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.LongJohns",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.SpiffoSuit",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.LongJohns_Crafted_Burlap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.LongJohns_Crafted_Cotton",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.BunnyTail",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.SpiffoTail",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bra_Strapless_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bra_Strapless_RedSpots",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bra_Strapless_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bra_Straps_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bra_Straps_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Underpants_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Underpants_RedSpots",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Underpants_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Boxers_Hearts",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Boxers_Silk_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Boxers_Silk_Red",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Boxers_RedStripes",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Boxers_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Briefs_White",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Briefs_AnimalPrints",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Briefs_SmallTrunks_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Briefs_SmallTrunks_Blue",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Briefs_SmallTrunks_Red",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Briefs_SmallTrunks_WhiteTINT",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.StockingsBlack",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.StockingsBlackTrans",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.StockingsBlackSemiTrans",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.TightsBlack",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.TightsBlackTrans",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.TightsBlackSemiTrans",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.TightsFishnets",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.StockingsWhite",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Garter",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Corset_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Corset_Red",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Corset",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Corset_Medical",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bra_Strapless_AnimalPrint",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bra_Straps_AnimalPrint",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bra_Straps_FrillyBlack",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bra_Strapless_FrillyBlack",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bra_Straps_FrillyPink",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bra_Strapless_FrillyPink",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bra_Straps_FrillyRed",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bra_Strapless_FrillyRed",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Underpants_AnimalPrint",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.FrillyUnderpants_Black",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.FrillyUnderpants_Pink",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.FrillyUnderpants_Red",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Briefs_Burlap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Briefs_Denim",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Briefs_Garbage",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Briefs_Hide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Briefs_Rag",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Briefs_Tarp",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bra_Strapless_Hide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bra_Straps_Hide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Underpants_Hide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_BulletArmy",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_BulletCivilian",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_BulletPolice",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_BulletSWAT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_DefaultTEXTURE",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_DefaultTEXTURE_TINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Foreman",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_HighViz",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Hunting_Grey",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Trucker",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Hunting_Orange",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Hunting_Camo",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Hunting_CamoGreen",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Waistcoat_GigaMart",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Waistcoat",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_WaistcoatTINT",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Hunting_Khaki",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Leather",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Leather_Biker",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Leather_Veteran",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Leather_BarrelDogs",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Leather_IronRodents",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Leather_WildRaccoons",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_BulletDesert",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_BulletDesertNew",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_BulletOliveDrab",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Garbage",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_DeerHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_FawnHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Hide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_AngusHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_HolsteinHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_SimmentalHide",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_Tarp",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vest_SheepSkin",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighMetal_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighMetal_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighMetalSpike_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighMetalSpike_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Greave_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Greave_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveSpike_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveSpike_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.VambraceSpike_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.VambraceSpike_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_Articulated_L_Metal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_Articulated_R_Metal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_ArticulatedSpike_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_ArticulatedSpike_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HockeyMask_Metal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HockeyMask_Copper",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HockeyMask_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HockeyMask_Silver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Cuirass_Metal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_MetalArmour",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_MetalHelmet",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Thigh_ArticMetal_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Thigh_ArticMetal_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_FullMetal_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Vambrace_FullMetal_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Cuirass_CoatOfPlates",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_Metal_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_Metal_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_MetalSpike_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_MetalSpike_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuard_L_Metal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuard_R_Metal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuardSpike_R_Metal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShinKneeGuardSpike_L_Metal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gorget_Metal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Codpiece_Metal",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighScrapMetal_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighScrapMetal_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighScrapMetalSpike_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ThighScrapMetalSpike_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveScrap_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveScrap_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveSpikeScrap_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GreaveSpikeScrap_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.VambraceScrap_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.VambraceScrap_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.VambraceSpikeScrap_Left",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.VambraceSpikeScrap_Right",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_HockeyMask_MetalScrap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Cuirass_MetalScrap",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hat_MetalScrapHelmet",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_MetalScrap_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_MetalScrap_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_MetalSpikeScrap_L",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoulderpad_MetalSpikeScrap_R",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Gloves_MetalScrapArmour",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_LeatherWaterBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.CanteenCowboy",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KnapsackSprayer",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KnapsackSprayer_Stowed",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_GolfBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_GolfBag_Melee",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Schoolbag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Schoolbag_Kids",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_NormalHikingBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_BigHikingBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_SurvivorBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ALICEpack",
+        "price": 100,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ALICEpack_Army",
+        "price": 100,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_WeaponBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_InmateEscapedBag",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_MoneyBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_WorkerBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_DuffelBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_BreakdownBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_DuffelBagTINT",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Plasticbag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Plasticbag_Clothing",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Garbagebag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tote",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tote_Clothing",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Purse",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.EmptySandbag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_DeadRats",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_DeadMice",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_DeadRoaches",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_TreasureBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Suitcase",
+        "price": 25,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Handbag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Toolbox",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Toolbox_Farming",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Toolbox_Wooden",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.FirstAidKit",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Lunchbox",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Lunchbox2",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Flightcase",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Guitarcase",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_FannyPackFront",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_FannyPackBack",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Briefcase",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Satchel",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Cooler",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PistolCase1",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PistolCase2",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PistolCase3",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.RevolverCase1",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.RevolverCase2",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.RevolverCase3",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_RifleCaseCloth",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_RifleCaseCloth2",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ShotgunCaseCloth",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ShotgunCaseCloth2",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_RifleCaseClothCamo",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_RifleCase",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_RifleCase_Police",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_RifleCase_Police2",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_RifleCase_Police3",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ShotgunCase_Police",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_RifleCaseGreen",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_RifleCaseGreen2",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ShotgunCaseGreen",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_FluteCase",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ViolinCase",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_TrumpetCase",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_SaxophoneCase",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_JanitorToolbox",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Toolbox_Mechanic",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ShotgunBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ShotgunSawnoffBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ShotgunDblBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ShotgunDblSawnoffBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_BowlingBallBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ALICE_BeltSus",
+        "price": 100,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ALICE_BeltSus_Camo",
+        "price": 100,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ALICE_BeltSus_Green",
+        "price": 100,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_BurglarBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_SatchelPhoto",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_TrashBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Cooler_Beer",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Cooler_Meat",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Cooler_Soda",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Plasticbag_Bags",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tote_Bags",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Dancer",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Briefcase_Money",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Toolbox_Fishing",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Toolbox_Gardening",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.FirstAidKit_New",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.FirstAidKit_NewPro",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCase",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCase_Survivalist",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCase_Tools",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseMilitary",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseMilitary_Medical",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseMilitary_Tools",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmall",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmall_Armorer",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmall_Electronics",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmall_Survivalist",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmall_WalkieTalkie",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmall_WalkieTalkiePolice",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmall_FirstAid",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmall_Pistol1",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmall_Pistol2",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmall_Pistol3",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmall_Revolver1",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmall_Revolver2",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmall_Revolver3",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmallMilitary",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmallMilitary_WalkieTalkie",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmallMilitary_FirstAid",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmallMilitary_Pistol1",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulky",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulky_SCBA",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulky_Audio",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulky_HAMRadio1",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulkyAmmo",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulkyAmmo_556",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulkyAmmo_308",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulkyAmmo_ShotgunShells",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulkyAmmo_9mm",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulkyAmmo_38",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulkyAmmo_44",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulkyAmmo_45",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulkyAmmo_Hunting",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulkyMilitary",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulky_Survivalist",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulkyMilitary_HAMRadio2",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseBulkyHazard",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Police",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Sheriff",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_SWAT",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Tacklebox",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_FishingBasket",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_GardenBasket",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_PicnicBasket",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_BirthdayBasket",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Schoolbag_Patches",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Schoolbag_Travel",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_BigHikingBag_Travel",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_HikingBag_Travel",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Satchel_Fishing",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Satchel_Medical",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Satchel_Military",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Schoolbag_Medical",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Gunny",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Laundry",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_LaundryLinen",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_LaundryHospital",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Mail",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Satchel_Mail",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Satchel_Leather",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_AmmoBox",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_AmmoBox_308",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_AmmoBox_ShotgunShells",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_AmmoBox_9mm",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_AmmoBox_38",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_AmmoBox_44",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_AmmoBox_45",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_AmmoBox_Mixed",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_AmmoBox_Hunting",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_BaseballBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_TennisBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_FoodCanned",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_FoodSnacks",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_MedicalBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_Military",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ToolBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GroceryBag1",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GroceryBag2",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GroceryBag3",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GroceryBag4",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GroceryBag5",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GroceryBagGourmet",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.RifleCase1",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.RifleCase2",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.RifleCase3",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.RifleCase4",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShotgunCase1",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ShotgunCase2",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_DoctorBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Parcel_ExtraSmall",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Parcel_Small",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Parcel_Medium",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Parcel_Large",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Parcel_ExtraLarge",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Present_ExtraSmall",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Present_Small",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Present_Medium",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Present_Large",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Present_ExtraLarge",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HollowBook",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HollowFancyBook",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HollowBook_Handgun",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HollowBook_Kids",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HollowBook_Prison",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HollowBook_Valuables",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HollowBook_Whiskey",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Wallet",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Wallet_Female",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Wallet_Male",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Lunchbag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PaperBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Paperbag_Jays",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Paperbag_Spiffos",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.SeedBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.SeedBag_Farming",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.SewingKit",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_CarDealer",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Bass",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_BlueFox",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Bug",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Clover",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_EagleFlag",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_EightBall",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Hotdog",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Kitty",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Large",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Nolans",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Panther",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_PineTree",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_PrayingHands",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_RabbitFoot",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_RainbowStar",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_RubberDuck",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_SecurityPass",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Sexy",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Spiffos",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_StinkyFace",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_WestMaple",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Racing12",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Racing34",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Racing58",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.WheatSack",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.WheatSeedSack",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.GemBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.DiceBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.TakeoutBox_Styrofoam",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.TakeoutBox_Chinese",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PencilCase",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PencilCase_Gaming",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Humidor",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.CigarBox",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.CigarBox_Gaming",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.CigarBox_Keepsakes",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.CigarBox_Kids",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.CookieJar",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.CookieJar_Bear",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JewelleryBox",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.JewelleryBox_Fancy",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.FirstAidKit_Camping",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.FirstAidKit_Camping_New",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.FirstAidKit_Military",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HalloweenCandyBucket",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.MakeupCase_Professional",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Cashbox",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ToolRoll_Leather",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ToolRoll_Fabric",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hatbox",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shoebox",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PhotoAlbum",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PhotoAlbum_Old",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ProduceBox_ExtraSmall",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ProduceBox_Small",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ProduceBox_Medium",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ProduceBox_Large",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.ProduceBox_ExtraLarge",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Cooler_Seafood",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ALICEpack_DesertCamo",
+        "price": 100,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ChestRig",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ProtectiveCaseSmall_KeyCutting",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ChestRig_Tarp",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ClothSatchel_Burlap",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ClothSatchel_Cotton",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ClothSatchel_Denim",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ClothSatchel_DenimBlack",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_ClothSatchel_DenimLight",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_CrudeLeatherBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_CrudeTarpBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_HideSlingBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_FannyPackFront_Hide",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_FannyPackBack_Hide",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_FannyPackFront_Tarp",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_FannyPackBack_Tarp",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_HideSack",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_TarpSack",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_HideSatchel",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_SheetSlingBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_TarpSlingBag",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Forged",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Forged_Gold",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.KeyRing_Forged_Silver",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Wallet_Hide",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_CraftedFramepack_Large",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_CraftedFramepack_Small",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_CraftedFramepack_Large2",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_CraftedFramepack_Large3",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_TarpFramepack_Small",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_TarpFramepack_Large",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.AmmoStrap_Bullets",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.AmmoStrap_Brown_Bullets",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.AmmoStrap_Bullets_308",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.AmmoStrap_Shells",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.AmmoStrap_Brown_Shells",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HolsterShoulder",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_HydrationBackpack",
+        "price": 50,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bag_HydrationBackpack_Camo",
+        "price": 50,
+        "currency": "silver"
+      }
+    ]
+  },
+  {
+    "id": "FoodTrader",
+    "name": "Dispensador de Comida",
+    "weight": 15.0,
+    "texture": "WorldItems/FoodTrader",
+    "scale": 0.6,
+    "items": [
+      {
+        "id": "Base.CannedSardines",
+        "price": 3,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.CannedBolognese",
+        "price": 4,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Pop2",
+        "price": 1,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.WaterBottleFull",
+        "price": 2,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.TinOpener",
+        "price": 2,
+        "currency": "silver"
+      }
+    ]
+  },
+  {
+    "id": "SurvivalTrader",
+    "name": "D.Survival: Kit de Supervivencia",
+    "weight": 15.0,
+    "texture": "WeaponTrader",
+    "scale": 0.6,
+    "items": [
+      {
+        "id": "Base.Dogfood",
+        "price": 5,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.WaterBottle",
+        "price": 3,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Revolver_Short",
+        "price": 5,
+        "currency": "gold"
+      },
+      {
+        "id": "Base.Bullets38Box",
+        "price": 20,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Hammer",
+        "price": 8,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PropaneTank",
+        "price": 15,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.PetrolCan",
+        "price": 12,
+        "currency": "silver"
+      }
+    ]
+  },
+  {
+    "id": "ToolTrader",
+    "name": "Dispensador de Herramientas",
+    "weight": 15.0,
+    "texture": "WorldItems/ToolTrader",
+    "scale": 0.6,
+    "items": [
+      {
+        "id": "Base.Axe",
+        "price": 15,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Sledgehammer",
+        "price": 3,
+        "currency": "gold"
+      },
+      {
+        "id": "Base.Hammer",
+        "price": 8,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Saw",
+        "price": 8,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Screwdriver",
+        "price": 5,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Crowbar",
+        "price": 12,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shovel",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NailsBox",
+        "price": 5,
+        "currency": "silver"
+      }
+    ]
+  },
+  {
+    "id": "VehicleTrader",
+    "name": "Dispensador Mecánico",
+    "weight": 15.0,
+    "texture": "WorldItems/VehicleTrader",
+    "scale": 0.6,
+    "items": [
+      {
+        "id": "Base.EngineParts",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.CarBattery1",
+        "price": 12,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.CarBattery2",
+        "price": 12,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.CarBattery3",
+        "price": 12,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.EngineDoor1",
+        "price": 15,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.EngineDoor2",
+        "price": 15,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.EngineDoor3",
+        "price": 15,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.TrunkDoor1",
+        "price": 15,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.TrunkDoor2",
+        "price": 15,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.TrunkDoor3",
+        "price": 15,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NormalBrake1",
+        "price": 20,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NormalBrake2",
+        "price": 20,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NormalBrake3",
+        "price": 20,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.FrontCarDoor1",
+        "price": 15,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.SmallGasTank1",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NormalCarMuffler1",
+        "price": 20,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NormalSuspension1",
+        "price": 5,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NormalCarSeat1",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.NormalTire1",
+        "price": 7,
+        "currency": "silver"
+      }
+    ]
+  },
+  {
+    "id": "WeaponTrader",
+    "name": "Dispensador de Armas",
+    "weight": 15.0,
+    "texture": "WorldItems/WeaponTrader",
+    "scale": 0.6,
+    "items": [
+      {
+        "id": "Base.Pan",
+        "price": 5,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Katana",
+        "price": 5,
+        "currency": "gold"
+      },
+      {
+        "id": "Base.Machete",
+        "price": 4,
+        "currency": "gold"
+      },
+      {
+        "id": "Base.MeatCleaver",
+        "price": 8,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.HuntingKnife",
+        "price": 10,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Shotgun",
+        "price": 2,
+        "currency": "gold"
+      },
+      {
+        "id": "Base.ShotgunShellsBox",
+        "price": 20,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.AssaultRifle",
+        "price": 5,
+        "currency": "gold"
+      },
+      {
+        "id": "Base.556Clip",
+        "price": 20,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.556Box",
+        "price": 42,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Pistol2",
+        "price": 12,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.9mmClip",
+        "price": 5,
+        "currency": "silver"
+      },
+      {
+        "id": "Base.Bullets9mmBox",
+        "price": 10,
+        "currency": "silver"
+      }
+    ]
+  }
+]
