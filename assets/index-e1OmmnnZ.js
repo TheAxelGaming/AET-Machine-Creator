@@ -32,7 +32,7 @@ module Base {
         texture = ${h.texture},
         scale = ${h.scale},
     }
-}`,me=()=>{let e=_.map(e=>{let t=Math.ceil(e.price*(1-(e.discount||0)/100)*(1-b/100));return`        { id = "${e.id}", price = ${t}, currency = "${e.currency}" }`}).join(`,
+}`,me=()=>{let e=_.map(e=>{let t=Math.ceil(e.price*(1-(e.discount||0)/100)*(1-b/100)),n=e.subcategory?`, subcategory = "${e.subcategory}"`:``;return`        { id = "${e.id}", price = ${t}, currency = "${e.currency}"${n} }`}).join(`,
 `);return`AETDefaultItems = AETDefaultItems or {}
 AETDefaultItems.${h.id} = {
 ${e}
