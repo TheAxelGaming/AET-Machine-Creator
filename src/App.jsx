@@ -257,7 +257,8 @@ module Base {
   const generateLuaCode = () => {
     const itemsCode = selectedItems.map(item => {
       const priceAfterDiscount = Math.ceil(item.price * (1 - (item.discount || 0) / 100) * (1 - globalDiscount / 100))
-      return `        { id = "${item.id}", price = ${priceAfterDiscount}, currency = "${item.currency}" }`
+      const subcatStr = item.subcategory ? `, subcategory = "${item.subcategory}"` : ''
+      return `        { id = "${item.id}", price = ${priceAfterDiscount}, currency = "${item.currency}"${subcatStr} }`
     }).join(',\n')
 
     return `AETDefaultItems = AETDefaultItems or {}
