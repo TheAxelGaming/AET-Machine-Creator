@@ -31,18 +31,25 @@ function App() {
   const [visibleCount, setVisibleCount] = useState(100)
   const [selectedForExport, setSelectedForExport] = useState([])
 
+  const DATA_VERSION = "b42_20_4_v2"
+
   useEffect(() => {
     // Resetear contador cuando cambie la búsqueda o categoría
     setVisibleCount(100)
   }, [searchTerm, selectedCategory])
 
   useEffect(() => {
-    // Intentar cargar desde localStorage primero, si no, desde los archivos
-    const savedMachines = localStorage.getItem('aet_machines')
-    
+    const savedVersion = localStorage.getItem('aet_data_version')
+    const savedMachines = savedVersion === DATA_VERSION ? localStorage.getItem('aet_machines') : null
+
+    if (savedVersion !== DATA_VERSION) {
+      localStorage.removeItem('aet_machines')
+      localStorage.setItem('aet_data_version', DATA_VERSION)
+    }
+
     Promise.all([
       fetch('./items.json').then(res => res.json()),
-      savedMachines ? Promise.resolve(JSON.parse(savedMachines)) : fetch('./machines.json').then(res => res.json()).catch(() => [])
+      savedMachines ? Promise.resolve(JSON.parse(savedMachines)) : fetch(`./machines.json?t=${Date.now()}`).then(res => res.json()).catch(() => [])
     ]).then(([itemsData, machinesData]) => {
       setItems(itemsData)
       setExistingMachines(machinesData)
@@ -64,6 +71,7 @@ function App() {
   useEffect(() => {
     if (existingMachines.length > 0) {
       localStorage.setItem('aet_machines', JSON.stringify(existingMachines))
+      localStorage.setItem('aet_data_version', DATA_VERSION)
     }
   }, [existingMachines])
 
@@ -72,7 +80,13 @@ function App() {
       if (m.id === machineMeta.id) {
         return {
           ...machineMeta,
-          items: selectedItems.map(i => ({ id: i.id, price: i.price, currency: i.currency }))
+          items: selectedItems.map(i => ({ 
+            id: i.id, 
+            price: i.price, 
+            currency: i.currency,
+            subcategory: i.subcategory,
+            count: i.count
+          }))
         }
       }
       return m
@@ -82,7 +96,13 @@ function App() {
     if (!existingMachines.find(m => m.id === machineMeta.id)) {
       updatedMachines.push({
         ...machineMeta,
-        items: selectedItems.map(i => ({ id: i.id, price: i.price, currency: i.currency }))
+        items: selectedItems.map(i => ({ 
+          id: i.id, 
+          price: i.price, 
+          currency: i.currency,
+          subcategory: i.subcategory,
+          count: i.count
+        }))
       })
     }
 
@@ -149,10 +169,11 @@ function App() {
     try {
       setLoading(true)
       // Usar timestamp para evitar cache del navegador
-      const res = await fetch(`/machines.json?t=${Date.now()}`)
+      const res = await fetch(`./machines.json?t=${Date.now()}`)
       const data = await res.json()
       setExistingMachines(data)
       localStorage.setItem('aet_machines', JSON.stringify(data))
+      localStorage.setItem('aet_data_version', DATA_VERSION)
       
       // Si estamos editando una máquina, refrescar sus items
       if (view === 'editor') {
